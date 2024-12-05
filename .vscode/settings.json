@@ -1,4 +1,9 @@
 {
+    "files.exclude": {
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+    },
     "python.testing.pytestArgs": [
         "tests"
     ],
