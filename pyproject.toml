@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dsa-with-python"
+version = "0.1.0"
+description = "Project to learn DSA concepts with Python3."
+authors = ["Eduardo Rezaghi <eduardo.rezaghi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pytest = "^8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
