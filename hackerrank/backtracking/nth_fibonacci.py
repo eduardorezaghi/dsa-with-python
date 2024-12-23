@@ -17,7 +17,7 @@ def memoized_nth_fibonacci(n):
 
 
 if __name__ == '__main__':
-    n = 40
+    n = 35
     no_cache = timeit(lambda: nth_fibonacci(n), number=1)
     with_cache = timeit(lambda: memoized_nth_fibonacci(n), number=1)
     
