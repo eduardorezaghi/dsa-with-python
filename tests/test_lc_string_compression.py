@@ -1,4 +1,4 @@
-from leetcode_ws.string_compression import compress
+from leetcode_ws.arrays.two_pointers.string_compression import compress
 
 def test_compress():
     chars = ["a", "a", "b", "b"]
