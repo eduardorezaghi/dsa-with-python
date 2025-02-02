@@ -3,9 +3,12 @@
         "**/.pytest_cache": true,
         "**/__pycache__": true,
         "**/.mypy_cache": true,
+        ".dsa-python": true
     },
     "python.testing.pytestArgs": [
         "tests"
     ],
     "python.testing.pytestEnabled": true,
+    "mypy.enabled": true,
+    "mypy.dmypyExecutable": "/home/eduardo/.local/bin/dmypy",
 }
